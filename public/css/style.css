@@ -1,0 +1,15 @@
+
+
+/* font family  */
+
+.st-font{
+    font-family: 'Satisfy' , cursive ;
+}
+.active{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+.i-color{
+    color: forestgreen;
+}

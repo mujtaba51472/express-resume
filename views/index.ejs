@@ -1,0 +1,53 @@
+<!-- header  -->
+<%- include('./partials/header.ejs') %>
+
+<!-- content  -->
+
+<!-- sider bar // content -->
+<div class="container-fluid bg-dark" style="height: 100vh">
+  <div class="row">
+    <div class="col-sm-2">
+      <!-- sidebar  -->
+      <%- include('./partials/sidebar.ejs' , {page_name:'Home'}) %>
+    </div>
+
+    <!-- main content  -->
+    <div class="col-sm-10">
+      <div class="mt-5">
+        <div class="text-center">
+          <img
+            width="150px"
+            height="150px"
+            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+            class="img-thumbnil rounded-circle mt-5"
+            alt=""
+          />
+        </div>
+        <div class="text-white mx=4 mt-5 text-justify">
+          <h1 class="fw-font st-font">Hello</h1>
+          <div class="px-4" style="line-height: 2rem"></div>
+          <p style="text-indent: 100px">
+            My name is <b class="text-warning st-font">mujtaba hussain</b> I am
+            software enginner . Currently Iam doing job as react js developer .
+            I have exprience in Js , react , nodejs , express , mongo
+          </p>
+          <p style="text-indent: 100px">
+            I have 5 years working exprience in different technolgies
+          </p>
+          <p style="text-indent: 100px">I love to try different tools</p>
+          <div class="text-center mt-5">
+            <button class="bg-warning  border-0">Hire me</button>
+            <button class="bg-warning  border-0">Contact me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <h1 class="text-danger st-font">Home page</h1>
+    <i class="fab fa-facebook"></i>
+    <img src="" alt=""> -->
+
+<!-- footer  -->
+<%- include('./partials/footer.ejs') %>
